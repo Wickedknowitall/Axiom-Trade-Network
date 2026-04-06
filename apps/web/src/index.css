@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 206 52% 10%;
+    
+    /* Navy Blue #1a3a52 */
+    --primary: 206 52% 21%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Gold/Orange #d4a574 */
+    --secondary: 31 53% 64%;
+    --secondary-foreground: 206 52% 21%;
+    
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 15% 45%;
+    
+    --accent: 31 53% 64%;
+    --accent-foreground: 206 52% 21%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 206 52% 21%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 206 52% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 206 52% 10%;
+    
+    --radius: 0.75rem;
+  }
+  
+  .dark {
+    --background: 206 52% 6%;
+    --foreground: 0 0% 95%;
+    
+    --primary: 206 52% 21%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 31 53% 64%;
+    --secondary-foreground: 206 52% 21%;
+    
+    --muted: 206 30% 15%;
+    --muted-foreground: 210 15% 65%;
+    
+    --accent: 31 53% 64%;
+    --accent-foreground: 206 52% 21%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 206 30% 20%;
+    --input: 206 30% 20%;
+    --ring: 31 53% 64%;
+    
+    --card: 206 35% 10%;
+    --card-foreground: 0 0% 95%;
+    
+    --popover: 206 35% 10%;
+    --popover-foreground: 0 0% 95%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "DM Sans", sans-serif;
+    overflow-x: clip;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  /* RTL Support */
+  html.rtl {
+    direction: rtl;
+  }
+  
+  html.rtl body {
+    text-align: right;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
