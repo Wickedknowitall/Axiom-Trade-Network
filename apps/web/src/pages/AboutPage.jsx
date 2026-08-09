@@ -62,7 +62,7 @@ const AboutPage = () => {
                   transition={{ duration: 0.5 }}
                 >
                   <img 
-                    src="https://images.unsplash.com/flagged/photo-1581531147313-09a253572fcb" 
+                    src="https://images.unsplash.com/flagged/photo-1581531147313-09a253572fcb?auto=format&fit=crop&w=1200&q=75"
                     alt="Business professionals collaborating in modern office"
                     className="rounded-2xl shadow-lg w-full h-auto"
                   />

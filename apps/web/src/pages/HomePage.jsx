@@ -107,7 +107,7 @@ const HomePage = () => {
           <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img 
-                src="https://images.unsplash.com/photo-1582774867786-8e802e3b33d8" 
+                src="https://images.unsplash.com/photo-1582774867786-8e802e3b33d8?auto=format&fit=crop&w=1600&q=75" 
                 alt="Modern business meeting in Africa"
                 className="w-full h-full object-cover"
               />
