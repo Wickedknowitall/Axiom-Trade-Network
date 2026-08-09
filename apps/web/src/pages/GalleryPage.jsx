@@ -43,6 +43,7 @@ const GalleryPage = () => {
       <Helmet>
         <title>Event Gallery - Axiom Trade Network Limited</title>
         <meta name="description" content="Explore our gallery of past B2B events, trade fairs, and networking sessions across Africa." />
+        <link rel="canonical" href="https://axiomtradenet.com/gallery" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

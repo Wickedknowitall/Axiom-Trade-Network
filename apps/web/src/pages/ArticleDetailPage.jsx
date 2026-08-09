@@ -76,6 +76,7 @@ const ArticleDetailPage = () => {
       <Helmet>
         <title>{`${article.title} - Axiom Trade Network Limited`}</title>
         <meta name="description" content={article.excerpt} />
+        <link rel="canonical" href={`https://axiomtradenet.com/insights/${slug}`} />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

@@ -50,6 +50,7 @@ const EventsPage = () => {
       <Helmet>
         <title>Events - Axiom Trade Network Limited</title>
         <meta name="description" content="Join our upcoming B2B events, trade fairs, and networking sessions across Africa. Register your interest or request a custom event." />
+        <link rel="canonical" href="https://axiomtradenet.com/events" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

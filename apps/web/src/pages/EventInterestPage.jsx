@@ -14,6 +14,7 @@ const EventInterestPage = () => {
       <Helmet>
         <title>Register event interest - Axiom Trade Network Limited</title>
         <meta name="description" content="Register your interest in our upcoming B2B events and trade fairs across Africa." />
+        <link rel="canonical" href="https://axiomtradenet.com/event-interest" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

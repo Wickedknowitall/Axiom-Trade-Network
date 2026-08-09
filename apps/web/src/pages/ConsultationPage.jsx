@@ -14,6 +14,7 @@ const ConsultationPage = () => {
       <Helmet>
         <title>Request a consultation - Axiom Trade Network Limited</title>
         <meta name="description" content="Schedule a consultation to discuss your African market entry strategy and business expansion needs." />
+        <link rel="canonical" href="https://axiomtradenet.com/consultation" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

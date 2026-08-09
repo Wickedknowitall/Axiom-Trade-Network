@@ -14,6 +14,7 @@ const CustomEventPage = () => {
       <Helmet>
         <title>Request a custom event - Axiom Trade Network Limited</title>
         <meta name="description" content="Request a custom B2B event, trade mission, or networking session tailored to your business objectives." />
+        <link rel="canonical" href="https://axiomtradenet.com/custom-event" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

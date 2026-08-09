@@ -45,6 +45,7 @@ const InsightsPage = () => {
       <Helmet>
         <title>Insights & News - Axiom Trade Network Limited</title>
         <meta name="description" content="Read the latest insights, market trends, and business strategies for African market expansion." />
+        <link rel="canonical" href="https://axiomtradenet.com/insights" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

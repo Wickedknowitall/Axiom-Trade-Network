@@ -97,6 +97,7 @@ const HomePage = () => {
       <Helmet>
         <title>Axiom Trade Network Limited - {t('home.heroTitle')}</title>
         <meta name="description" content={t('home.heroSubtitle')} />
+        <link rel="canonical" href="https://axiomtradenet.com/" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

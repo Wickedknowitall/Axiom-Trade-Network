@@ -31,6 +31,7 @@ const AboutPage = () => {
       <Helmet>
         <title>About us - Axiom Trade Network Limited</title>
         <meta name="description" content="Learn about Axiom Trade Network Limited's mission to facilitate global business expansion into Africa through strategic events and market entry solutions." />
+        <link rel="canonical" href="https://axiomtradenet.com/about" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

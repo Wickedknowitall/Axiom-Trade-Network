@@ -76,6 +76,7 @@ const ServicesPage = () => {
       <Helmet>
         <title>Our services - Axiom Trade Network Limited</title>
         <meta name="description" content="Comprehensive B2B event organization, trade fairs, market research, legal support, and business development services for African market entry." />
+        <link rel="canonical" href="https://axiomtradenet.com/services" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">

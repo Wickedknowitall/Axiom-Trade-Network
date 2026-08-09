@@ -61,6 +61,7 @@ const ContactPage = () => {
       <Helmet>
         <title>{t('contact.title')} - Axiom Trade Network Limited</title>
         <meta name="description" content={t('contact.subtitle')} />
+        <link rel="canonical" href="https://axiomtradenet.com/contact" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">
